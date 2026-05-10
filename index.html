@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>Student Portal</title>
+<style>body{font-family:Arial;max-width:600px;margin:40px auto}input,button{width:100%;padding:12px;margin:8px 0}</style>
+</head><body>
+<h1>Student Portal</h1>
+<p>If Firebase is configured, students can sign up and log in here.</p>
+<input id="email" type="email" placeholder="Email">
+<input id="password" type="password" placeholder="Password">
+<button onclick="signup()">Sign Up</button>
+<button onclick="login()">Login</button>
+<p id="msg"></p>
+<script src="firebase-config.js"></script>
+<script src="app.js"></script>
+</body></html>

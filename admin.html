@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>Admin</title>
+<style>body{font-family:Arial;max-width:700px;margin:40px auto}input,button{width:100%;padding:12px;margin:8px 0}</style>
+</head><body>
+<div id="loginBox">
+<h1>Admin Login</h1>
+<input id="adminPassword" type="password" placeholder="Password">
+<button onclick="adminLogin()">Login</button>
+</div>
+<div id="adminPanel" style="display:none">
+<h1>Upload Questions from JSON</h1>
+<input id="jsonFile" type="file" accept=".json">
+<button onclick="uploadQuestionsJSON()">Upload JSON</button>
+</div>
+<script src="firebase-config.js"></script>
+<script src="app.js"></script>
+</body></html>
